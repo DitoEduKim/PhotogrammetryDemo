@@ -10,7 +10,7 @@ gdjs.Scene2Code.GDnextObjects2= [];
 
 
 gdjs.Scene2Code.mapOfGDgdjs_9546Scene2Code_9546GDnextObjects1Objects = Hashtable.newFrom({"next": gdjs.Scene2Code.GDnextObjects1});
-gdjs.Scene2Code.asyncCallback8893060 = function (runtimeScene, asyncObjectsList) {
+gdjs.Scene2Code.asyncCallback9414340 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scene3", false);
 }}
 gdjs.Scene2Code.eventsList0 = function(runtimeScene) {
@@ -21,7 +21,7 @@ gdjs.Scene2Code.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene2Code.asyncCallback8893060(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene2Code.asyncCallback9414340(runtimeScene, asyncObjectsList)));
 }
 }
 
