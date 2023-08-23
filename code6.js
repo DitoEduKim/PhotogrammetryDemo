@@ -19,7 +19,7 @@ gdjs.Scene7Code.GDMeshObjects2= [];
 
 gdjs.Scene7Code.mapOfGDgdjs_9546Scene7Code_9546GDNewSprite2Objects1Objects = Hashtable.newFrom({"NewSprite2": gdjs.Scene7Code.GDNewSprite2Objects1});
 gdjs.Scene7Code.mapOfGDgdjs_9546Scene7Code_9546GDnextObjects2Objects = Hashtable.newFrom({"next": gdjs.Scene7Code.GDnextObjects2});
-gdjs.Scene7Code.asyncCallback9519052 = function (runtimeScene, asyncObjectsList) {
+gdjs.Scene7Code.asyncCallback9525868 = function (runtimeScene, asyncObjectsList) {
 gdjs.Scene7Code.GDnextObjects2.length = 0;
 
 {gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.Scene7Code.mapOfGDgdjs_9546Scene7Code_9546GDnextObjects2Objects, 1518, 881, "");
@@ -35,7 +35,7 @@ gdjs.Scene7Code.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), (runtimeScene) => (gdjs.Scene7Code.asyncCallback9519052(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), (runtimeScene) => (gdjs.Scene7Code.asyncCallback9525868(runtimeScene, asyncObjectsList)));
 }
 }
 
@@ -43,7 +43,7 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(6), 
 
 
 };gdjs.Scene7Code.mapOfGDgdjs_9546Scene7Code_9546GDnextObjects1Objects = Hashtable.newFrom({"next": gdjs.Scene7Code.GDnextObjects1});
-gdjs.Scene7Code.asyncCallback9520204 = function (runtimeScene, asyncObjectsList) {
+gdjs.Scene7Code.asyncCallback9527020 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scene8", false);
 }}
 gdjs.Scene7Code.eventsList1 = function(runtimeScene) {
@@ -54,7 +54,7 @@ gdjs.Scene7Code.eventsList1 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene7Code.asyncCallback9520204(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene7Code.asyncCallback9527020(runtimeScene, asyncObjectsList)));
 }
 }
 

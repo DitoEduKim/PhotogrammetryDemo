@@ -10,7 +10,7 @@ gdjs.Scene10Code.GDNewSpriteObjects2= [];
 
 
 gdjs.Scene10Code.mapOfGDgdjs_9546Scene10Code_9546GDstartObjects1Objects = Hashtable.newFrom({"start": gdjs.Scene10Code.GDstartObjects1});
-gdjs.Scene10Code.asyncCallback9545804 = function (runtimeScene, asyncObjectsList) {
+gdjs.Scene10Code.asyncCallback9552868 = function (runtimeScene, asyncObjectsList) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Scene1", false);
 }}
 gdjs.Scene10Code.eventsList0 = function(runtimeScene) {
@@ -21,7 +21,7 @@ gdjs.Scene10Code.eventsList0 = function(runtimeScene) {
 {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene10Code.asyncCallback9545804(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(0.5), (runtimeScene) => (gdjs.Scene10Code.asyncCallback9552868(runtimeScene, asyncObjectsList)));
 }
 }
 
